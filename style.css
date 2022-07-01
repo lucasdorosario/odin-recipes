@@ -1,0 +1,32 @@
+body {
+    background-color: #f9f9f9;
+    opacity: 0.8;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, #f0f0f6 0, #f0f0f6 1px, #f9f9f9 0, #f9f9f9 50%);
+    text-align: center;
+    font-family: 'Courier', sans-serif;
+}
+
+.main-title {
+    color: #00F;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.main-image {
+    height: auto;
+    width: 35%;
+}
+
+.subheader {
+    font-size: 1em;
+    margin: 2em 10em;
+}
+
+.recipe-list {
+    list-style: none;
+}
+
+.recipe {
+    margin: 1.15em;
+}
