@@ -13,6 +13,11 @@ body {
     font-weight: bold;
 }
 
+.recipe-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .main-image {
     height: auto;
     width: 35%;
@@ -23,10 +28,14 @@ body {
     margin: 2em 10em;
 }
 
-.recipe-list {
+.unordered-list {
     list-style: none;
 }
 
-.recipe {
+.ordered-list {
+    list-style-position: inside;
+}
+
+.list-item {
     margin: 1.15em;
 }
